@@ -52,11 +52,6 @@ body {
   cursor: pointer;
 }
 
-.btn :hover,
-.btn :focus {
-  color: var(--accent-cl);
-}
-
 .subtitle {
   font-weight: 700d;
   font-size: 36px;
@@ -131,6 +126,8 @@ body {
   color: var(--secondary-txt--mode-dark);
 }
 
+/* Страница Студия */
+
 /* Герой */
 .hero {
   background-color: var(--primary-bg--mode-dark);
@@ -198,6 +195,48 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt--mode-light);
+}
+
+/* Страница Портфолио */
+
+/* Фильтр */
+.filter {
+  background-color: var(--primary-bg--mode-light);
+}
+
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt--mode-ligt);
+  background-color: var(--secondary-bg--mode-light);
+}
+
+.filter-list :hover,
+.filter-list :focus {
+  color: var(--primary-txt--mode-dark);
+  background-color: var(--accent-cl);
+}
+
+/* Проекті */
+.projects {
+  background-color: var(--secondary-bg--mode-light);
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-txt {
+  font-size: 16px;
+  line-height: 1.87x;
   letter-spacing: 0.03em;
   color: var(--secondary-txt--mode-light);
 }
