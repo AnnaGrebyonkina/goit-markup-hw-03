@@ -14,20 +14,20 @@ Letter spacing: 3% */
   /* Акцент */
   --accent-cl: #2196f3;
 
-  /* Светлая тема текста */
+  /* Светлая тема текст */
   --primary-txt--mode-ligt: #212121;
   --secondary-txt--mode-light: #757575;
 
-  /* Темная тема текста */
+  /* Темная тема текст */
   --primary-txt--mode-dark: #ffffff;
   --secondary-txt--mode-dark: rgba(255, 255, 255, 0.6);
 
-  /* Светлая тема фона */
+  /* Светлая тема фон */
   --primary-bg--mode-light: #e5e5e5;
   --secondary-bg--mode-light: #f5f4fa;
-  --futer-bg--mode-light: #ffffff;
+  --header-bg--mode-light: #ffffff;
 
-  /* Темная тема фона */
+  /* Темная тема фон */
   --primary-bg--mode-dark: #2f303a;
 }
 
@@ -39,6 +39,7 @@ body {
   color: var(--primary-txt--mode-ligt);
 }
 
+/* Повторяющиеся стили */
 .list {
   list-style: none;
 }
@@ -47,7 +48,36 @@ body {
   text-decoration: none;
 }
 
+.btn {
+  cursor: pointer;
+}
+
+.btn :hover,
+.btn :focus {
+  color: var(--accent-cl);
+}
+
+.subtitle {
+  font-weight: 700d;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* Шапка сайта */
+.header {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  background-color: var(--header-bg--mode-light);
+}
+.header :hover,
+.header :focus {
+  color: var(--accent-cl);
+}
+
 .header-link-logo {
   font-family: Raleway;
   font-weight: 700;
@@ -64,7 +94,110 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-link :hover,
-.header-link :focus {
+.header-mail,
+.header-phone {
+  color: var(--secondary-txt--mode-light);
+}
+
+/* Футер */
+.footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  background-color: var(--primary-bg--mode-dark);
+}
+
+.footer :hover,
+.footer :focus {
   color: var(--accent-cl);
+}
+
+.footer-link-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer-addres-link {
+  color: var(--primary-txt--mode-dark);
+}
+
+.footer-mail-link,
+.footer-phon-link {
+  color: var(--secondary-txt--mode-dark);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--primary-bg--mode-dark);
+  color: var(--primary-txt--mode-dark);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  color: var(--primary-txt--mode-dark);
+  background-color: #2196f3;
+}
+
+.hero-btn :hover,
+.hero-btn :focus {
+  color: var(--accent-cl);
+}
+
+/* Принципы работы */
+.principles {
+  background-color: var(--primary-bg--mode-light);
+}
+
+. .principles-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.principles-txt {
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt--mode-light);
+}
+
+/* Наша работа */
+.works {
+  background-color: var(--primary-bg--mode-light);
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--secondary-bg--mode-light: );
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9px;
+  letter-spacing: 0.03em;
+}
+
+.team-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt--mode-light);
 }
