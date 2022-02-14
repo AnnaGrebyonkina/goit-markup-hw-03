@@ -46,14 +46,16 @@ body {
 
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 .btn {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .subtitle {
-  font-weight: 700d;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -62,10 +64,6 @@ body {
 
 /* Шапка сайта */
 .header {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.02em;
   background-color: var(--header-bg--mode-light);
 }
 .header :hover,
@@ -82,7 +80,7 @@ body {
   color: #2196f3;
 }
 
-.nav {
+.header-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -92,6 +90,10 @@ body {
 .header-mail,
 .header-phone {
   color: var(--secondary-txt--mode-light);
+}
+
+.nav-link {
+  color: #212121;
 }
 
 /* Футер */
@@ -109,7 +111,7 @@ body {
 }
 
 .footer-link-logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -140,11 +142,13 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--primary-txt--mode-dark);
   background-color: #2196f3;
@@ -160,7 +164,7 @@ body {
   background-color: var(--primary-bg--mode-light);
 }
 
-. .principles-title {
+.principles-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -169,7 +173,7 @@ body {
 
 .principles-txt {
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-txt--mode-light);
 }
@@ -187,14 +191,14 @@ body {
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
 
 .team-txt {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--secondary-txt--mode-light);
 }
@@ -210,7 +214,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-txt--mode-ligt);
   background-color: var(--secondary-bg--mode-light);
@@ -222,11 +225,6 @@ body {
   background-color: var(--accent-cl);
 }
 
-/* Проекті */
-.projects {
-  background-color: var(--secondary-bg--mode-light);
-}
-
 .projects-title {
   font-weight: 700;
   font-size: 18px;
@@ -236,7 +234,7 @@ body {
 
 .projects-txt {
   font-size: 16px;
-  line-height: 1.87x;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-txt--mode-light);
 }
