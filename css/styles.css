@@ -90,6 +90,10 @@ body {
 .header-mail,
 .header-phone {
   color: var(--secondary-txt--mode-light);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 
 .nav-link {
@@ -169,6 +173,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .principles-txt {
