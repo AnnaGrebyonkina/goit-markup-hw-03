@@ -62,7 +62,7 @@ img {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -75,6 +75,8 @@ img {
 }
 
 .subtitle {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -95,6 +97,8 @@ img {
   display: flex;
   align-items: center;
   margin: 0px;
+
+  border-bottom: 1px solid #ececec;
 }
 
 .header-link-logo {
@@ -165,6 +169,12 @@ img {
   color: var(--accent-cl);
 }
 
+.footer-conteiner {
+  display: block;
+  padding: 60px 0px;
+  margin-right: auto;
+}
+
 .footer-link-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -174,6 +184,22 @@ img {
   color: #2196f3;
 }
 
+.footer-addres-link {
+  margin-top: 20px;
+}
+
+.footer-addres-link,
+.footer-mail-link,
+.footer-phon-link {
+  display: block;
+  padding-bottom: 9px;
+}
+
+.footer-phon-link {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
 .footer-addres-link {
   color: var(--primary-txt--mode-dark);
 }
@@ -264,6 +290,12 @@ img {
 
 .works-list {
   display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.works-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Наша команда */
@@ -272,10 +304,28 @@ img {
 }
 
 .team-title {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-content {
+  padding: 30px 0px;
+
+  text-align: center;
 }
 
 .team-txt {
