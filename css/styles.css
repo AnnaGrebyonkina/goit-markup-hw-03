@@ -154,59 +154,7 @@ img {
   margin: 0px 50px 0px 0px;
 }
 
-/* Футер */
-.footer {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 
-  background-color: var(--primary-bg--mode-dark);
-}
-
-.footer :hover,
-.footer :focus {
-  color: var(--accent-cl);
-}
-
-.footer-conteiner {
-  display: block;
-  padding: 60px 0px;
-  margin-right: auto;
-}
-
-.footer-link-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
-
-.footer-addres-link {
-  margin-top: 20px;
-}
-
-.footer-addres-link,
-.footer-mail-link,
-.footer-phon-link {
-  display: block;
-  padding-bottom: 9px;
-}
-
-.footer-phon-link {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 50px;
-}
-.footer-addres-link {
-  color: var(--primary-txt--mode-dark);
-}
-
-.footer-mail-link,
-.footer-phon-link {
-  color: var(--secondary-txt--mode-dark);
-}
 
 /* Страница Студия */
 
@@ -410,4 +358,58 @@ img {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0px;
+}
+
+/* Футер */
+.footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  background-color: var(--primary-bg--mode-dark);
+}
+
+.footer :hover,
+.footer :focus {
+  color: var(--accent-cl);
+}
+
+.footer-conteiner {
+  display: block;
+  padding: 60px 0px;
+  margin-right: auto;
+}
+
+.footer-link-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer-addres-link {
+  margin-top: 20px;
+}
+
+.footer-addres-link,
+.footer-mail-link,
+.footer-phon-link {
+  display: block;
+  padding-bottom: 9px;
+}
+
+.footer-phon-link {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+.footer-addres-link {
+  color: var(--primary-txt--mode-dark);
+}
+
+.footer-mail-link,
+.footer-phon-link {
+  color: var(--secondary-txt--mode-dark);
 }
