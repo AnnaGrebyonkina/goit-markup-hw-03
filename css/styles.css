@@ -59,6 +59,7 @@ img {
 
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .container {
@@ -154,31 +155,35 @@ img {
   margin: 0px 50px 0px 0px;
 }
 
-
-
 /* Страница Студия */
 
 /* Герой */
-.hero {
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
+
   background-color: var(--primary-bg--mode-dark);
   color: var(--primary-txt--mode-dark);
 }
 
 .hero-title {
-  padding-top: 200px;
-  padding-bottom: 30px;
+  width: 696px;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero-btn {
   padding: 10px 32px;
-  margin-bottom: 200px;
   border: 0px;
 
   font-weight: 700;
@@ -197,7 +202,6 @@ img {
 
 /* Принципы работы */
 .principles {
-  background-color: var(--primary-bg--mode-light);
 }
 
 .principles-list {
@@ -232,7 +236,7 @@ img {
 
 /* Наша работа */
 .works {
-  background-color: var(--primary-bg--mode-light);
+  padding-top: 0px;
 }
 
 .works-list {
@@ -278,7 +282,7 @@ img {
 .team-txt {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-txt--mode-light);
 }
@@ -293,7 +297,8 @@ img {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }
 
 .filter-item:not(:last-child) {
@@ -302,7 +307,6 @@ img {
 
 .filter-btn {
   padding: 6px 22px;
-  margin-bottom: 50px;
 
   font-weight: 500;
   font-size: 16px;
@@ -339,7 +343,7 @@ img {
 }
 
 .projects-title {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 
   font-weight: 700;
   font-size: 18px;
@@ -376,7 +380,8 @@ img {
 
 .footer-conteiner {
   display: block;
-  padding: 60px 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-right: auto;
 }
 
@@ -403,7 +408,6 @@ img {
 .footer-phon-link {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 50px;
 }
 .footer-addres-link {
   color: var(--primary-txt--mode-dark);
